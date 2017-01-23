@@ -12,9 +12,9 @@ title_separator          : "-"
 name                     : "Plailect"
 description              : "Full arm9loaderhax CFW Guide"
 url                      : "https://eckyecky.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "3ds.guide"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+enforce_ssl              : 
+baseurl                  : "/Guide"# the subpath of your site, e.g. "/blog"
+repository               : "eckyecky/Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -266,5 +266,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-theme: jekyll-theme-cayman
